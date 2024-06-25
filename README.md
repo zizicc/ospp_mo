@@ -10,12 +10,12 @@
 * extract texts from pdf and converts them to chunks using unipdf, then remove empty ones. Sample outputs:
   * ---------Chunk 0-----------
   * My most popular learning sessions, speeches, and TED-like talks
-  * ----------------------------
+  * ----------- ----------------
   * ---------Chunk 1-----------
   * Are you looking for speakers at your learning day, team meeting, or offsite? Read on for
   * talks I’d be thrilled to deliver to your team, based on popular writings on Mind The
   * Beet.
-  * ----------------------------
+  * ----------- ----------------
 * generate embeddings from chunks by llama3. Sample outputs(only prints the first 4 dimensions):
   * Got 2 embeddings:
   * 0: len=4096; first few=[0.8820618 1.7218097 1.4975904 1.0243285]
